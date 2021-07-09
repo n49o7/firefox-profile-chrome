@@ -1,0 +1,50 @@
+/* Bookmarks */
+
+#editBookmarkPanelInfoArea,
+#editBookmarkSeparator,
+#editBMPanel_tagsRow,
+#editBookmarkPanelBottomContent{
+  display: none;
+}
+
+:root {
+  --arrowpanel-padding: 8px !important;
+}
+
+/* Tabs */
+
+:root {
+  --tab-min-height: 32px !important;
+  --inline-tab-padding: 8px !important;
+}
+
+.tab-content {
+  padding: 4px var(--inline-tab-padding) 0 var(--inline-tab-padding) !important;
+}
+
+.tab-background {
+  border-radius: var(--tab-border-radius) var(--tab-border-radius) 0 0 !important;
+  margin-block: var(--proton-tab-block-margin) 0 !important;
+}
+
+.tab-background:not([selected="true"]) {
+  background: #DEDEDE !important;
+}
+
+.tab-background[selected="true"] {
+  background: #F9F9FB !important;
+}
+
+/* Toolbar */
+
+:root {
+  --urlbar-height: 24px !important;
+  --urlbar-toolbar-height: 24px !important;
+  /*--urlbar-container-height: 24px !important;*/
+  --toolbarbutton-outer-padding: 0px !important;
+}
+
+#urlbar-background, #urlbar-input-container {
+  /*border-radius: 0 0 var(--toolbarbutton-border-radius) var(--toolbarbutton-border-radius) !important;*/
+  /*border-radius: 0 !important;*/
+}
