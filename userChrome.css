@@ -1,3 +1,24 @@
+/* Context (extensions) */
+
+#support_lastpass_com-menuitem-22,
+#popupwindow_ettoolong-menuitem-24,
+#_8aa36f4f-6dc7-4c06-77af-5035170634fe_-menuitem-_CitaviPicker,
+#zotero_chnm_gmu_edu-menuitem-3842,
+#zotero_chnm_gmu_edu-menuitem-22 {
+  display:  none;
+}
+
+/* Context */
+
+#context-viewsource,
+#context-inspect-a11y,
+#context-sep-screenshots,
+#context-pocket,
+#context-savepage,
+#context-print-selection {
+	display:  none;
+}
+
 /* Bookmarks */
 
 #editBookmarkPanelInfoArea,
