@@ -1,13 +1,3 @@
-/* Context (extensions) */
-
-#support_lastpass_com-menuitem-22,
-#popupwindow_ettoolong-menuitem-24,
-#_8aa36f4f-6dc7-4c06-77af-5035170634fe_-menuitem-_CitaviPicker,
-#zotero_chnm_gmu_edu-menuitem-3842,
-#zotero_chnm_gmu_edu-menuitem-22 {
-  display:  none;
-}
-
 /* Context */
 
 #context-viewsource,
@@ -40,7 +30,7 @@
 }
 
 .tab-content {
-  padding: 4px var(--inline-tab-padding) 0 var(--inline-tab-padding) !important;
+  padding: 0 var(--inline-tab-padding) !important;
 }
 
 .tab-background {
@@ -48,12 +38,16 @@
   margin-block: var(--proton-tab-block-margin) 0 !important;
 }
 
+.tabbrowser-tab {
+  --tab-line-color:  none !important;
+}
+
 .tab-background:not([selected="true"]) {
-  background: #DEDEDE !important;
+  /*background: # !important;*/
 }
 
 .tab-background[selected="true"] {
-  background: #F9F9FB !important;
+  background: #463D39 !important;
 }
 
 /* Toolbar */
@@ -61,11 +55,5 @@
 :root {
   --urlbar-height: 24px !important;
   --urlbar-toolbar-height: 24px !important;
-  /*--urlbar-container-height: 24px !important;*/
   --toolbarbutton-outer-padding: 0px !important;
-}
-
-#urlbar-background, #urlbar-input-container {
-  /*border-radius: 0 0 var(--toolbarbutton-border-radius) var(--toolbarbutton-border-radius) !important;*/
-  /*border-radius: 0 !important;*/
 }
