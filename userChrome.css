@@ -58,8 +58,10 @@
 
 .tab-background[selected="true"] {
   /*background: #463D39 !important;*/
+  border: none !important;
   background-image: linear-gradient(var(--lwt-selected-tab-background-color), #266DAC) !important;
 }
+
 
 /* Toolbar */
 
